@@ -612,7 +612,6 @@ vendor/lib/libqmiservices.so|f967065af3f7fe07b2419a73d4ea8989aeca5d41
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephonyservice.xml
 system_ext/framework/qcrilhook.jar|6cead102805109095cabe4bf932dec079d93314e
-system_ext/framework/qti-telephony-common.jar|d0a49cbbe94d60062bbe43cf812e674727d82e2a
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|6675ecd23d1cd1425af6e214b90d700ea5ba1612
 -vendor/app/IWlanService/IWlanService.apk|92168bf713f66a400122e7357f981be106cde39e
 vendor/bin/adpl|4ee2aa7fb4363ddfcacf67800e61e5b68aedae20
