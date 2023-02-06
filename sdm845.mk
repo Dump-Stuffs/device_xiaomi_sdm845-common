@@ -194,6 +194,11 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor
 
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.base@1.0.vendor
+
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
@@ -221,7 +226,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_sdm845
+    android.hardware.lights-service.xiaomi_sdm845
 
 # LiveDisplay
 #PRODUCT_PACKAGES += \
